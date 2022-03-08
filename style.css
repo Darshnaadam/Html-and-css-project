@@ -1,0 +1,86 @@
+body{ margin:0;
+    font-family: sans-serif;
+    }
+
+    html{font-size: 12px;}
+
+h1{margin: 0;}  
+
+/* navigation bar */ 
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #212121;
+}
+
+.navbar ul li{
+    
+    display: inline-block;
+}
+.navbar li a {display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 13px;
+    color: darkviolet;
+    letter-spacing: 2px;
+
+}
+
+/*main section*/
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80;
+    height: 100vh;
+    background-image: linear-gradient(darkviolet,darkviolet) ,url("lata\ mangeshkar.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.main_text{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main_text h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.main_text p{
+    letter-spacing: 5px;
+}
+/*biography section*/
+.biography_section{
+    background-color:darkviolet;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.biography  {
+  
+   width: 65%;
+   text-align: center;
+   margin:0 auto;
+   padding: 6% 1%;
+   color: white;
+   font-size:medium;
+   background-color: darkviolet;
+   border-color: black;
+   border-radius: 5%;
+   border-width: thick;
+
+}
+/*last section*/
+.last_section{
+    text-align: center;
+    font-size: large;
+}
