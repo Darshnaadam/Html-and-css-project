@@ -1,44 +1,21 @@
 body{ margin:0;
     font-family: sans-serif;
+    background-color: violet;
     }
 
     html{font-size: 12px;}
 
 h1{margin: 0;}  
 
-/* navigation bar */ 
-.navbar ul {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    background-color: #212121;
-}
-
-.navbar ul li{
-    
-    display: inline-block;
-}
-.navbar li a {display: block;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 25px 20px;
-    font-size: 13px;
-    color: darkviolet;
-    letter-spacing: 2px;
-
-}
 
 /*main section*/
 .main_section{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
-    width: 80;
+    width: 70;
     height: 100vh;
-    background-image: linear-gradient(darkviolet,darkviolet) ,url("lata\ mangeshkar.jpg");
+    background-image: linear-gradient(darkgray,darkgray) ,url("lata\ mangeshkar.jpg");
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -56,6 +33,7 @@ h1{margin: 0;}
 
 .main_text p{
     letter-spacing: 5px;
+    font-size: 2pc;
 }
 /*biography section*/
 .biography_section{
